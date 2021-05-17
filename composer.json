@@ -1,0 +1,45 @@
+{
+    "name": "it-devgroup/laravel-user-oauth2-attach",
+    "description": "Laravel user attach from social networks on a oauth2",
+    "type": "library",
+    "version": "1.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gavoronok30",
+            "email": "gavoronok30@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "IT Dev Group",
+            "email": "info@it-devgroup.com",
+            "role": "Provider"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "lumen",
+        "auth",
+        "authorization",
+        "oauth2",
+        "user",
+        "social",
+        "it-devgroup"
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^7.0|^8.0",
+        "illuminate/database": "^7.0|^8.0",
+        "nesbot/carbon": "^1.0|^2.0"
+    },
+    "suggest": {
+        "facebook/graph-sdk": "For working OAuth2 Facebook (tested for version ^5.7)",
+        "google/apiclient": "For working OAuth2 google (tested for version ^2.9)"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ItDevgroup\\LaravelUserOAuth2Attach\\": "src/"
+        }
+    }
+}
