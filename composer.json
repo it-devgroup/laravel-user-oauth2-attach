@@ -2,7 +2,7 @@
     "name": "it-devgroup/laravel-user-oauth2-attach",
     "description": "Laravel user attach from social networks on a oauth2",
     "type": "library",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "authors": [
         {

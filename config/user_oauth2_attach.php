@@ -57,7 +57,7 @@ return [
             'enabled' => true,
             'redirect_url' => 'http://localhost/google/redirect-url',
             'params' => [
-                'credential_file' => resource_path('client_secret.json'),
+                'credential_file' => storage_path('client_secret.json'),
                 'access_type' => 'offline',
                 'prompt' => 'consent',
                 'include_granted_scopes' => true,
